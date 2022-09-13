@@ -118,8 +118,10 @@
   }
 }
 #contact {
+  margin-top: 70px;
   .container {
     display: flex;
+    justify-content: space-between;
     .left {
       .titleBox {
         h1 {
@@ -163,6 +165,57 @@
                 display: inline-block;
                 margin-left: 5px;
               }
+            }
+          }
+        }
+      }
+    }
+    .right {
+      #email {
+        padding: 40px 30px;
+        background-color: #1c1c1c;
+        border-radius: 10px;
+        width: 500px;
+        form {
+          display: flex;
+          flex-direction: column;
+          label {
+            font-size: 16px;
+            margin: 10px 0;
+          }
+          input,
+          textarea {
+            background-color: #121212;
+            border: 1px solid transparent;
+            outline: none;
+            color: #fff;
+            border-radius: 10px;
+            font-family: "Noto Sans KR", "Roboto", sans-serif;
+            &:focus {
+              border: 1px solid transparent;
+              background-image: linear-gradient(#141414, #141414), linear-gradient(43deg, #a162e8, #f7ce68 46%, #85ffbd);
+              background-origin: border-box;
+              background-clip: content-box, border-box;
+            }
+          }
+          input {
+            height: 40px;
+          }
+          textarea {
+            resize: none;
+          }
+          button {
+            cursor: pointer;
+            margin: 20px 0;
+            width: 40%;
+            background: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(107, 114, 128, 0.87);
+            span {
+              font-size: 16px;
+              font-weight: 400;
+              color: rgba(255, 255, 255, 0.87);
             }
           }
         }
