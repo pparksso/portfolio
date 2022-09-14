@@ -10,6 +10,9 @@ export default function Project() {
           <div className="titleBox">
             <h1>Projects</h1>
           </div>
+          <div className="iconBox">
+            <img src="images/mainVisual02.png" alt="" />
+          </div>
           <ul className="projectList">
             <li>
               <div className="imgBox">

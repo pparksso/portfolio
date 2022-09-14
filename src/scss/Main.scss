@@ -34,6 +34,15 @@
 
 #project {
   .container {
+    position: relative;
+    .iconBox {
+      img {
+        width: 80px;
+        position: absolute;
+        top: -12px;
+        left: 35%;
+      }
+    }
     .projectList {
       li {
         display: flex;
@@ -306,6 +315,9 @@
     }
   }
   #project .container {
+    .iconBox img {
+      left: 80%;
+    }
     .projectList li {
       flex-direction: column;
       justify-content: center;
@@ -375,6 +387,11 @@
       width: 250px;
     }
   }
+  #project .container .iconBox img {
+    width: 60px;
+    top: 5px;
+    left: 70%;
+  }
   #contact .container .left {
     .infoBox .infoWrap {
       margin: 0;
@@ -388,14 +405,21 @@
   #main .container .mainVisual img {
     width: 170px;
   }
-  #project .container .github {
-    a {
-      padding: 7px 10px;
-      span {
-        font-size: 13px;
+  #project .container {
+    .iconBox img {
+      width: 45px;
+      top: 17px;
+    }
+    .github {
+      a {
+        padding: 7px 10px;
+        span {
+          font-size: 13px;
+        }
       }
     }
   }
+
   #contact .container {
     .left {
       margin: 40px 5px;
