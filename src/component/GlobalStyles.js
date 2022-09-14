@@ -10,13 +10,18 @@ body {
   background-color: #121212;
   color: rgba(255, 255, 255, 0.87);
   font-size: 20px;
+  overflow-x:hidden;
+}
+body::-webkit-scrollbar {
+  width:10px;
+  background:#121212;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
 .container {
-  width: 55vw;
+  max-width: 1024px;
   margin: 0 auto;
 }
 `;

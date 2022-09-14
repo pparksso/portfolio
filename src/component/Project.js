@@ -13,7 +13,7 @@ export default function Project() {
           <ul className="projectList">
             <li>
               <div className="imgBox">
-                <img src="images/project01.png" alt="" />
+                <img src="images/project01-1.png" alt="" />
               </div>
               <div className="txtBox">
                 <h3>Travel Diary (여행 블로그)</h3>
