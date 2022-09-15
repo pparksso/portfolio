@@ -41,7 +41,6 @@
 }
 @media all and (max-width: 830px) {
   #header .container {
-    justify-content: center;
     font-size: 16px;
   }
   #footer {
@@ -49,6 +48,9 @@
   }
 }
 @media all and (max-width: 530px) {
+  .container {
+    padding: 0 15px;
+  }
   #header .container .utilMenu li a {
     margin: 0;
   }
@@ -60,9 +62,13 @@
   }
 }
 @media all and (max-width: 330px) {
+  .container {
+    padding: 0 5px;
+  }
   #header .container {
     height: 60px;
     font-size: 12px;
+    justify-content: center;
     .utilMenu li a {
       padding: 4px 13px;
     }
