@@ -1,8 +1,11 @@
 import Skill from "./Skill";
 import "../scss/Main.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faV } from "@fortawesome/free-solid-svg-icons";
+
 export default function Project() {
+  const node = "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white";
+  const mongoDb = "https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white";
+  const mongoose = "https://img.shields.io/badge/Mongoose-8e0a0a?style=for-the-badge&logo=MongoDB&logoColor=white";
+  const js = "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white";
   return (
     <>
       <div id="project">
@@ -35,33 +38,33 @@ export default function Project() {
                 <div className="techBox">
                   <ul>
                     <li>
-                      <span>nodejs</span>
+                      <img src={node} alt="nodejs" />
                     </li>
                     <li>
-                      <span>MongoDB</span>
+                      <img src={mongoDb} alt="MongoDB" />
                     </li>
                     <li>
-                      <span>Mongoose</span>
+                      <img src={mongoose} alt="mongoose" />
                     </li>
                     <li>
-                      <span>javascript</span>
+                      <img src={js} alt="JavaScript" />
                     </li>
                   </ul>
                 </div>
                 <ul className="linkList">
                   <li>
                     <a href="https://github.com/pparksso/travelNote" target="blank">
-                      <img src="images/github.svg" alt="" />
+                      <img src="images/github_logo_icon.png" alt="github" />
                     </a>
                   </li>
                   <li>
                     <a href="https://velog.io/@pparksso/nodejs-Toy-Project-%EC%97%AC%ED%96%89-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" target="blank">
-                      <FontAwesomeIcon icon={faV} />
+                      <img src="images/velog_icon.png" alt="velog" />
                     </a>
                   </li>
                   <li>
                     <a href="https://worldtraveldiary.herokuapp.com/" target="blank">
-                      <img src="images/external-link.svg" alt="" />
+                      <img src="images/link_icon.png" alt="link" />
                     </a>
                   </li>
                 </ul>
