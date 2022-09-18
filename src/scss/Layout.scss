@@ -2,17 +2,17 @@
 
 #header {
   .container {
-    height: 100px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    height: 100px;
     .utilMenu {
       display: flex;
       li {
         a {
           display: inline-block;
-          padding: 4px 20px;
           margin: 0 10px;
+          padding: 4px 20px;
           border-radius: 5px;
           &:hover {
             background-color: rgba(28, 28, 28, 0.87);
@@ -24,8 +24,8 @@
 }
 
 #footer {
-  text-align: center;
   margin: 150px auto 30px auto;
+  text-align: center;
   word-break: keep-all;
   p {
     font-size: 16px;
@@ -66,9 +66,9 @@
     padding: 0 5px;
   }
   #header .container {
+    justify-content: center;
     height: 60px;
     font-size: 12px;
-    justify-content: center;
     .utilMenu li a {
       padding: 4px 13px;
     }
