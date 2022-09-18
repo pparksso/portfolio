@@ -54,6 +54,10 @@
       li {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 80px;
+        &.reverse {
+          flex-direction: row-reverse;
+        }
         .imgBox {
           width: 50%;
           img {
@@ -84,6 +88,8 @@
           }
           p {
             margin: 0 0 15px 0;
+            width: 80%;
+            word-break: keep-all;
           }
           .techBox {
             margin: 15px 0;
@@ -334,6 +340,10 @@
     .projectList li {
       flex-direction: column;
       justify-content: center;
+      margin-bottom: 40px;
+      &.reverse {
+        flex-direction: column;
+      }
       .imgBox {
         width: 100%;
         img {
@@ -343,6 +353,9 @@
       .txtBox {
         width: 100%;
         margin-top: 20px;
+        p {
+          width: 100%;
+        }
         .techBox ul {
           li {
             margin-top: 7px;

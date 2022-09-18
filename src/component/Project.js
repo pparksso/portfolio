@@ -70,96 +70,84 @@ export default function Project() {
                 </ul>
               </div>
             </li>
-            {/* <li>
-            <div className="imgBox">
-              <img src="" alt="" />
-            </div>
-            <div className="txtBox">
-              <h3></h3>
-              <p></p>
-              <div className="techBox">
-                <ul>
+            <li className="reverse">
+              <div className="imgBox">
+                <img src="images/project02.png" alt="" />
+              </div>
+              <div className="txtBox">
+                <h3>랑벨 반응형웹 클론코딩</h3>
+                <p>
+                  본 프로젝트는 html, css를 연습하기 위해 제작한 반응형 웹페이지 입니다. 메인페이지와 서브페이지(전제품보기)를 구현하였으며, swiper 라이브러리를 사용하였습니다. json파일로 데이터를
+                  만들어 axios를 이용하여 화면에 나타나게하였습니다.
+                </p>
+                <div className="staff etc">
+                  <span>개발 인원 : </span>
+                  <span>1인</span>
+                </div>
+                <div className="time etc">
+                  <span>소요 시간 : </span>
+                  <span>13일</span>
+                </div>
+                <div className="techBox">
+                  <ul>
+                    <li>
+                      <img src={js} alt="JavaScript" />
+                    </li>
+                  </ul>
+                </div>
+                <ul className="linkList">
                   <li>
-                    <span></span>
+                    <a href="https://github.com/pparksso/Lanvelle_clone" target="blank">
+                      <img src="images/github_logo_icon.png" alt="github" />
+                    </a>
                   </li>
                   <li>
-                    <span></span>
-                  </li>
-                  <li>
-                    <span></span>
-                  </li>
-                  <li>
-                    <span></span>
-                  </li>
-                  <li>
-                    <span></span>
+                    <a href="https://resplendent-paletas-4be473.netlify.app" target="blank">
+                      <img src="images/link_icon.png" alt="link" />
+                    </a>
                   </li>
                 </ul>
               </div>
-              <ul className="linkList">
-                <li>
-                  <Link to="/">
-                    <span></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/">
-                    <span></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/">
-                    <span></span>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div className="imgBox">
-              <img src="" alt="" />
-            </div>
-            <div className="txtBox">
-              <h3></h3>
-              <p></p>
-              <div className="techBox">
-                <ul>
+            </li>
+            <li>
+              <div className="imgBox">
+                <img src="images/project03.png" alt="" />
+              </div>
+              <div className="txtBox">
+                <h3>풍림무약 반응형웹 클론코딩</h3>
+                <p>
+                  본 프로젝트는 html, css를 연습하기 위해 제작한 반응형 웹페이지 입니다. 메인페이지와 서브페이지(위치안내)를 구현하였으며, swiper 라이브러리와 카카오맵 API를 사용하였습니다. 모든 탭은
+                  javascript로 구현하였습니다.
+                </p>
+                <div className="staff etc">
+                  <span>개발 인원 : </span>
+                  <span>1인</span>
+                </div>
+                <div className="time etc">
+                  <span>소요 시간 : </span>
+                  <span>6일</span>
+                </div>
+                <div className="techBox">
+                  <ul>
+                    <li>
+                      <img src={js} alt="JavaScript" />
+                    </li>
+                  </ul>
+                </div>
+                <ul className="linkList">
                   <li>
-                    <span></span>
+                    <a href="https://github.com/pparksso/punglim_clone" target="blank">
+                      <img src="images/github_logo_icon.png" alt="github" />
+                    </a>
                   </li>
                   <li>
-                    <span></span>
-                  </li>
-                  <li>
-                    <span></span>
-                  </li>
-                  <li>
-                    <span></span>
-                  </li>
-                  <li>
-                    <span></span>
+                    <a href="https://deft-twilight-8524ab.netlify.app" target="blank">
+                      <img src="images/link_icon.png" alt="link" />
+                    </a>
                   </li>
                 </ul>
               </div>
-              <ul className="linkList">
-                <li>
-                  <Link to="/">
-                    <span></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/">
-                    <span></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/">
-                    <span></span>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </li> */}
+            </li>
           </ul>
           <div className="github">
             <a href="https://github.com/pparksso" target="blank">
