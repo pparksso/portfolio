@@ -17,7 +17,7 @@ export default function Project() {
             <img src="images/mainVisual02.png" alt="" />
           </div>
           <ul className="projectList">
-            <li>
+            <li className="project">
               <div className="imgBox">
                 <img src="images/project01-1.png" alt="" />
               </div>
@@ -70,7 +70,7 @@ export default function Project() {
                 </ul>
               </div>
             </li>
-            <li className="reverse">
+            <li className="reverse project">
               <div className="imgBox">
                 <img src="images/project02.png" alt="" />
               </div>
@@ -109,7 +109,7 @@ export default function Project() {
                 </ul>
               </div>
             </li>
-            <li>
+            <li className="project">
               <div className="imgBox">
                 <img src="images/project03.png" alt="" />
               </div>

@@ -18,6 +18,7 @@ export default function Contact() {
                   <a href="mailto:thgml5143@hanmail.net">
                     <span className="email">thgml5143@hanmail.net</span>
                   </a>
+                  <p className="phone">010 - 6482 - 5124</p>
                 </div>
                 <div className="linkBox">
                   <ul>

@@ -23,9 +23,9 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <a href="https://www.notion.so/sokey/d3342af590654545b32b49805c4afe6e" target="blank">
               <span>Resume</span>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
