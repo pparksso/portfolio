@@ -24,12 +24,12 @@ export default function Skill() {
             </div>
             <span>React Js</span>
           </li>
-          {/* <li>
+          <li>
             <div className="imgBox">
               <img src="images/redux.svg" alt="redux" />
             </div>
             <span>Redux</span>
-          </li> */}
+          </li>
           <li>
             <div className="imgBox">
               <img src="images/nodejs-original.svg" alt="nodejs" />

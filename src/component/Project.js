@@ -6,6 +6,8 @@ export default function Project() {
   const mongoDb = "https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white";
   const mongoose = "https://img.shields.io/badge/Mongoose-8e0a0a?style=for-the-badge&logo=MongoDB&logoColor=white";
   const js = "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white";
+  const react = "https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white";
+  const redux = "https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white";
   return (
     <>
       <div id="project">
@@ -18,6 +20,68 @@ export default function Project() {
           </div>
           <ul className="projectList">
             <li className="project">
+              <div className="imgBox">
+                <img src="images/project04.png" alt="" />
+              </div>
+              <div className="txtBox">
+                <h3>쇼핑몰 사이트</h3>
+                <p>
+                  본 프로젝트는 클라이언트를 react.js, 서버는 node.js의 express를 이용하여 제작한 간단한 쇼핑몰 웹사이트입니다. 상태관리는 redux-tookit을 사용하였습니다. 기본적인 회원가입 외에 카카오
+                  로그인( + 회원가입)과 카카오페이를 통한 결제, 장바구니, 상품 조회수 별 랭킹을 구현하였습니다.
+                </p>
+                <div className="staff etc">
+                  <span>개발 인원 : </span>
+                  <span>1인</span>
+                </div>
+                <div className="time etc">
+                  <span>소요 시간 : </span>
+                  <span>17일</span>
+                </div>
+                <div className="techBox">
+                  <ul>
+                    <li>
+                      <img src={react} alt="react" />
+                    </li>
+                    <li>
+                      <img src={redux} alt="redux" />
+                    </li>
+                    <li>
+                      <img src={node} alt="nodejs" />
+                    </li>
+                    <li>
+                      <img src={mongoDb} alt="MongoDB" />
+                    </li>
+                    <li>
+                      <img src={mongoose} alt="mongoose" />
+                    </li>
+                    <li>
+                      <img src={js} alt="JavaScript" />
+                    </li>
+                  </ul>
+                </div>
+                <ul className="linkList">
+                  <li>
+                    <a href="https://github.com/pparksso/react_shoppingmall" target="blank">
+                      <img src="images/github_logo_icon.png" alt="github" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://velog.io/@pparksso/react-nodejs-Toy-Project-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%87%BC%ED%95%91%EB%AA%B0-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8"
+                      target="blank"
+                    >
+                      <img src="images/velog_icon.png" alt="velog" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://ilbisonte.herokuapp.com/" target="blank">
+                      <img src="images/link_icon.png" alt="link" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li className="reverse project">
               <div className="imgBox">
                 <img src="images/project01-1.png" alt="" />
               </div>
@@ -70,7 +134,7 @@ export default function Project() {
                 </ul>
               </div>
             </li>
-            <li className="reverse project">
+            <li className=" project">
               <div className="imgBox">
                 <img src="images/project02.png" alt="" />
               </div>
@@ -109,7 +173,7 @@ export default function Project() {
                 </ul>
               </div>
             </li>
-            <li className="project">
+            <li className="reverse project">
               <div className="imgBox">
                 <img src="images/project03.png" alt="" />
               </div>
